@@ -16,4 +16,7 @@ export class Book {
 
     @Column()
     description: string
+
+    @Column()
+    notesLink: string
 }
