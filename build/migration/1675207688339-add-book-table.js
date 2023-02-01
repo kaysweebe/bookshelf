@@ -44,7 +44,7 @@ var addBookTable1675207688339 = /** @class */ (function () {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, queryRunner.query("CREATE TABLE book (\n                id string,\n                title string, \n                author string,\n                genre string,\n                description string\n            )")];
+                    case 0: return [4 /*yield*/, queryRunner.query("CREATE TABLE book (\n                id string,\n                title string, \n                author string,\n                genre string,\n                description string,\n                notesLink string\n            );")];
                     case 1:
                         _a.sent();
                         return [2 /*return*/];
@@ -56,7 +56,7 @@ var addBookTable1675207688339 = /** @class */ (function () {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, queryRunner.query("DROP TABLE book (\n                id string,\n                title string, \n                author string,\n                genre string,\n                description string\n            )")];
+                    case 0: return [4 /*yield*/, queryRunner.query("DROP TABLE book;")];
                     case 1:
                         _a.sent();
                         return [2 /*return*/];
